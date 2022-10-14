@@ -53,3 +53,12 @@ h1{
 #resposta:hover{
     border: none;
 }
+
+#escondido{
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50px;
+    left: -181px;
+}
