@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+#main{
+    display: flex;
+    justify-content: center;;
+}
+
 body {
     background-color: rgb(46, 46, 46);
     color: white;
@@ -16,16 +21,15 @@ h1{
 }
 
 #enviar{
-    position: absolute;
     border-radius: 3px;
     background-color: rgb(27, 27, 27);
     color: white;
     border: none;
-    top: 357px;
-    left: 897px;
     width: 70px;
     height: 50px;
     margin-left: 0;
+    margin-top: 20px;
+    margin-left: -2px;
 }
 
 #enviar:hover{
@@ -36,7 +40,6 @@ h1{
 }
 
 #resposta{
-    margin-left: 700px;
     width: 200px;
     height: 50px;
     margin-top: 20px;
@@ -44,5 +47,9 @@ h1{
     border-radius: 3px;
     background-color: rgb(27, 27, 27);
     color: white;
+    border: none;
+}
+
+#resposta:hover{
     border: none;
 }
