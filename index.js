@@ -10,7 +10,7 @@ function enviarForms(){
     if(valor.value == `max`){
         conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: green;'>Parabens Max ;)</h2>`;
     } else {
-        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: red;'>MACACO</h2>`;
+        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: red;'>MACACO >:( </h2>`;
     }
     controle++
     if(controle == 5){
