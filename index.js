@@ -8,7 +8,7 @@ function enviarForms(){
     console.log(valor.value)
     valor.value
     if(valor.value == `naju`){
-        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: green;'>Parabens Naju, Felix dia do bolo ;)</h2>`;
+        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: green;'>Parabens Naju, Feliz dia do bolo ;)</h2>`;
     } else {
         conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: red;'>NÃO >:( </h2>`;
     }
