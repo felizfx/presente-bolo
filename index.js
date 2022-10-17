@@ -7,10 +7,10 @@ let controle = 0
 function enviarForms(){
     console.log(valor.value)
     valor.value
-    if(valor.value == `max`){
-        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: green;'>Parabens Max ;)</h2>`;
+    if(valor.value == `naju`){
+        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: green;'>Parabens Naju, Felix dia do bolo ;)</h2>`;
     } else {
-        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: red;'>MACACO >:( </h2>`;
+        conteudo.innerHTML = `<h2 style='text-align: center; margin-top: 10px; color: red;'>NÃO >:( </h2>`;
     }
     controle++
     if(controle == 5){
